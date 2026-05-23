@@ -1,0 +1,87 @@
+<mxfile host="Electron" pages="2">
+  <diagram name="Página-1" id="CkM7fAzcjvqoSFcQjp48">
+    <mxGraphModel dx="1857" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-7" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="610" width="920" x="-160" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-5" edge="1" parent="1" source="LwSncM-ezLEi4fs5FsWf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="186.29999999999995" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-12" connectable="0" parent="LwSncM-ezLEi4fs5FsWf-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="envia currículo" vertex="1">
+          <mxGeometry relative="1" x="-0.6463" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Usuário" vertex="1">
+          <mxGeometry height="60" width="30" x="-70" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-19" edge="1" parent="1" source="LwSncM-ezLEi4fs5FsWf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LwSncM-ezLEi4fs5FsWf-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-6" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" value="EC2 -&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Python App&lt;/span&gt;&lt;div&gt;CV Analyzer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="93" width="76.5" x="338" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-14" edge="1" parent="1" source="LwSncM-ezLEi4fs5FsWf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LwSncM-ezLEi4fs5FsWf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-15" edge="1" parent="1" source="LwSncM-ezLEi4fs5FsWf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LwSncM-ezLEi4fs5FsWf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-8" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" value="S3 -&amp;nbsp;Curriculum Files" vertex="1">
+          <mxGeometry height="93" width="66.5" x="160" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Armazenar o PDF dos currículos" vertex="1">
+          <mxGeometry height="60" width="120" x="-20" y="693" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="- Rodar aplicação Python&lt;div&gt;- Analisar currículo&lt;/div&gt;&lt;div&gt;- Gerar score&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="166.25" x="210" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-30" edge="1" parent="1" source="LwSncM-ezLEi4fs5FsWf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LwSncM-ezLEi4fs5FsWf-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-18" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" value="RDS -&amp;nbsp;Candidate Data" vertex="1">
+          <mxGeometry height="81" width="72" x="500" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Guarda nome, skills, score, resultado da analise" vertex="1">
+          <mxGeometry height="60" width="170" x="370" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-26" edge="1" parent="1" source="LwSncM-ezLEi4fs5FsWf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LwSncM-ezLEi4fs5FsWf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-27" edge="1" parent="1" source="LwSncM-ezLEi4fs5FsWf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LwSncM-ezLEi4fs5FsWf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-29" edge="1" parent="1" source="LwSncM-ezLEi4fs5FsWf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LwSncM-ezLEi4fs5FsWf-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-25" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="50" width="27.87" x="80" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-31" edge="1" parent="1" source="LwSncM-ezLEi4fs5FsWf-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LwSncM-ezLEi4fs5FsWf-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-28" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Dar permissão pro EC2 acessar o S3 eo o RDS" vertex="1">
+          <mxGeometry height="60" width="170" x="140" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="LwSncM-ezLEi4fs5FsWf-32" edge="1" parent="1" source="LwSncM-ezLEi4fs5FsWf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.887;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;" target="LwSncM-ezLEi4fs5FsWf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LnXGl-sFHWoiWqWQdbD7" name="Página-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
